@@ -1,6 +1,6 @@
 cask "gksdud" do
-  version "1.0.0"
-  sha256 "2e993be3313898dbe73ada319c314e1ebbe15147d11065910bccd00785334b63"
+  version "1.1.0"
+  sha256 "f1da76686b9188ec9943398f572900bb803eb6298ebb877b95460b307d2bad8c"
 
   url "https://github.com/codingnoye/gksdud/releases/download/v#{version}/gksdud-#{version}-macos-universal.zip"
   name "gksdud"
