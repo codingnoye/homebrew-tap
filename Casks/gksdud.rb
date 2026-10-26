@@ -1,6 +1,6 @@
 cask "gksdud" do
-  version "2.0.1"
-  sha256 "1a89ba9c55d653a2866006f6f22dd0810b300271e759ae30881a56cb83425ba5"
+  version "2.1.0"
+  sha256 "d7bccfe3695afb4430553e7e239b898cf404a2751867fb3e29d02c784f47bb43"
 
   url "https://github.com/codingnoye/gksdud/releases/download/v#{version}/gksdud-#{version}.zip"
   name "gksdud"
