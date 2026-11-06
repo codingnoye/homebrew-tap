@@ -1,6 +1,6 @@
 cask "gksdud" do
-  version "2.1.0"
-  sha256 "d7bccfe3695afb4430553e7e239b898cf404a2751867fb3e29d02c784f47bb43"
+  version "2.1.1"
+  sha256 "3390de498d3e4283b90691beeabf530faf0893fb0c54ef623cd9ecfa66e29c84"
 
   url "https://github.com/codingnoye/gksdud/releases/download/v#{version}/gksdud-#{version}.zip"
   name "gksdud"
@@ -14,7 +14,6 @@ cask "gksdud" do
   uninstall quit: "io.gksdud.inputswitch"
 
   caveats <<~EOS
-    Updating from 1.8.0 or earlier asks for Accessibility once more, as the app is now signed by Apple.
     Accessibility permission is required for switching on key press.
     If Homebrew cannot quit gksdud, quit it normally to restore keyboard settings.
   EOS
