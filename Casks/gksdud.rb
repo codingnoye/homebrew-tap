@@ -5,7 +5,7 @@ cask "gksdud" do
   url "https://github.com/codingnoye/gksdud/releases/download/v#{version}/gksdud-#{version}.zip"
   name "gksdud"
   desc "Korean-English input switching from the menu bar"
-  homepage "https://github.com/codingnoye/gksdud"
+  homepage "https://gksdud.noye.dev"
 
   depends_on macos: :ventura
 
